@@ -1,5 +1,23 @@
 :root {
-  --menucolor: white;
+  --menucolor: rgba(255, 255, 255, 0.5);
+}
+@keyframes menuAnimRL {
+  from {
+    transform: translateX(65px);
+  }
+}
+@keyframes menuAnimLR {
+  from {
+    transform: translateX(-65px);
+  }
+}
+@keyframes appAnim {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: translateY(20px);
+  }
 }
 * {
   padding: 0;
@@ -26,6 +44,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: appAnim;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-duration: 500ms;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
 .editMenu {
   height: 80vh;
@@ -36,6 +60,12 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  animation-name: menuAnimLR;
+  animation-timing-function: ease-in-out;
+  animation-duration: 500ms;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
 .socialMenu {
   height: 80vh;
@@ -46,6 +76,12 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  animation-name: menuAnimRL;
+  animation-timing-function: ease-in-out;
+  animation-duration: 500ms;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
 .buttons {
   width: 75px;
