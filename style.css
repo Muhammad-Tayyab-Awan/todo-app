@@ -155,3 +155,29 @@ button {
   background-size: contain;
   background-position: center;
 }
+.appWelcome {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  text-align: justify;
+  flex-direction: column;
+  font-family: "Trebuchet MS";
+}
+.appPara {
+  text-align: justify;
+  text-wrap: wrap;
+  line-height: 2.25rem;
+}
+.appPara::selection {
+  background-color: black;
+  color: white;
+}
+.appHeading::selection {
+  background-color: black;
+  color: white;
+}
