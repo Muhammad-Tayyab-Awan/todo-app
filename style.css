@@ -52,4 +52,35 @@ body {
   width: 75px;
   height: 75px;
   border-radius: 50%;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0;
+}
+#website {
+  background-image: url(images/website-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#instagram {
+  background-image: url(images/instagram.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#youtube {
+  background-image: url(images/youtube.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#facebook {
+  background-image: url(images/facebook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.buttons:hover {
+  transform: scale(1.25);
 }
