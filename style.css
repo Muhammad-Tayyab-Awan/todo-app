@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-  background-color: paleturquoise;
+  background: repeating-radial-gradient(white, gold);
   height: 100vh;
   width: 100vw;
 }
@@ -13,4 +13,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.mainApp {
+  width: 60vw;
+  height: 80vh;
+  background-color: black;
+  border-radius: 10%;
+  box-shadow: 10px 10px 30px rgb(65, 61, 61);
 }
