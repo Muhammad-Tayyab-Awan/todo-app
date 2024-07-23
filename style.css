@@ -23,6 +23,9 @@ body {
   background-color: black;
   border-radius: 10%;
   box-shadow: 10px 10px 30px rgb(65, 61, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .editMenu {
   height: 80vh;
@@ -45,7 +48,7 @@ body {
   flex-direction: column;
 }
 .buttons {
-  background-color: orange;
+  border: 1px solid black;
   width: 75px;
   height: 75px;
   border-radius: 50%;
