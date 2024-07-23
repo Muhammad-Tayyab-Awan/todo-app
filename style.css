@@ -20,7 +20,7 @@ body {
 .mainApp {
   width: 60vw;
   height: 80vh;
-  background-color: black;
+  background-color: rgb(225, 209, 247);
   border-radius: 10%;
   box-shadow: 10px 10px 30px rgb(65, 61, 61);
   display: flex;
@@ -48,7 +48,6 @@ body {
   flex-direction: column;
 }
 .buttons {
-  border: 1px solid black;
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -83,4 +82,39 @@ body {
 }
 .buttons:hover {
   transform: scale(1.25);
+}
+#addTask {
+  background-image: url(images/add.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#editTask {
+  background-image: url(images/edit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#viewTask {
+  background-image: url(images/view.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#deleteTask {
+  background-image: url(images/delete.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+button {
+  border: none;
+}
+.todoImg {
+  width: 60%;
+  height: 60%;
+  background-image: url(images/todo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
