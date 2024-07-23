@@ -29,10 +29,24 @@ body {
   width: 10vw;
   background-color: var(--menucolor);
   border-radius: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 .socialMenu {
   height: 80vh;
   width: 10vw;
   background-color: var(--menucolor);
   border-radius: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons {
+  background-color: orange;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
