@@ -55,6 +55,7 @@ body {
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
   transition-delay: 0;
+  cursor: pointer;
 }
 #website {
   background-image: url(images/website-logo.png);
